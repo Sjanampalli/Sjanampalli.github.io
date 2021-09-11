@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        title {
+
+            text-align: left;
+        }
+
+        body {
+            width: 750px;
+            margin: 0 auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+
+
+        thead {
+            background-color: rgb(3, 125, 129);
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: .2em 1em .2em .5em;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        tbody tr:nth-child(odd) td {
+            background-color: rgb(0, 218, 226);
+        }
+    </style>
+
+
+    <title>Supraj Janampalli, ITIS 3135, HTML Tables</title>
+
+</head>
+
+
+<body>
+    <header>
+        <h1>Supraj Janampalli, HTML Tables</h1>
+    </header>
+
+
+
+    <h3>My Tabular Data</h3>
+    <ol>
+        <li>Mickey Mouse MickeyMouse@Disney.com</li>
+        <li>Donald Duck Duckie@Disney.com</li>
+        <li>Drake Parker Parker2312@Nickelodeon.com</li>
+        <li>Josh Nichols JoshiePoo@Nickelodeon.com</li>
+        <li>SpongeBob Squarepants CrabbyPatty@Nickelodeon.com</li>
+        <li>Steve Rogers SRogers@Shield.org</li>
+        <li>Tony Stark Tony.Stark@starkindustries.com</li>
+    </ol>
+
+    <h3>Employee Data in Simple Table
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>E-mail</th>
+                    <th class="right">Years of Service</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mickey Mouse</td>
+                    <td>MickeyMouse@Disney.com</td>
+                    <td class="right">10</td>
+                </tr>
+                <tr>
+                    <td>Donald Duck</td>
+                    <td>Duckie@Disney.com</td>
+                    <td class="right">38</td>
+                </tr>
+                <tr>
+                    <td>Drake Parker</td>
+                    <td>Parker2312@Nickelodeon.com</td>
+                    <td class="right">8</td>
+                </tr>
+                <tr>
+                    <td>Josh Nichols</td>
+                    <td>JoshiePoo@Nickelodeon.com</td>
+                    <td class="right">6</td>
+                </tr>
+                <tr>
+                    <td>SpongeBob Squarepants</td>
+                    <td>CrabbyPatty@Nickelodeon.com</td>
+                    <td class="right">7</td>
+                </tr>
+                <tr>
+                    <td>Steve Rogers</td>
+                    <td>SRogers@Shield.org</td>
+                    <td class="right">5</td>
+                </tr>
+                <tr>
+                    <td>Tony Stark</td>
+                    <td>Tony.Stark@starkindustries.com</td>
+                    <td class="right">4</td>
+                </tr>
+            </tbody>
+        </table>
+    </h3>
+
+
+    <h3>Employee Data in Complex Table
+        <table>
+            <thead>
+                <tr>
+                    <th>Job</th>
+                    <th>Name</th>
+                    <th>E-mail</th>
+                    <th class="right">Years of Service</th>
+                    <th>Yearly Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marketing</td>
+                    <td>Mickey Mouse</td>
+                    <td>MickeyMouse@Disney.com</td>
+                    <td class="right">10</td>
+                    <td>$100,000</td>
+                </tr>
+                <tr>
+                    <td>Marketing</td>
+                    <td>Donald Duck</td>
+                    <td>Duckie@Disney.com</td>
+                    <td class="right">38</td>
+                    <td>$90,000</td>
+                </tr>
+                <tr>
+                    <td>Sales</td>
+                    <td>Drake Parker</td>
+                    <td>Parker2312@Nickelodeon.com</td>
+                    <td class="right">8</td>
+                    <td>$60,000</td>
+                </tr>
+                <tr>
+                    <td>Marketing</td>
+                    <td>Josh Nichols</td>
+                    <td>JoshiePoo@Nickelodeon.com</td>
+                    <td class="right">6</td>
+                    <td>$95,000</td>
+                </tr>
+                <tr>
+                    <td>Sales</td>
+                    <td>SpongeBob Squarepants</td>
+                    <td>CrabbyPatty@Nickelodeon.com</td>
+                    <td class="right">7</td>
+                    <td>$10,000</td>
+                </tr>
+                <tr>
+                    <td>Accountant</td>
+                    <td>Steve Rogers</td>
+                    <td>SRogers@Shield.org</td>
+                    <td class="right">5</td>
+                    <td>$9,000</td>
+                </tr>
+                <tr>
+                    <td>Sales</td>
+                    <td>Tony Stark</td>
+                    <td>Tony.Stark@starkindustries.com</td>
+                    <td class="right">4</td>
+                    <td>$950,000,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </h3>
+
+</body>
+
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+
+
+</footer>
+
+
+</html>
