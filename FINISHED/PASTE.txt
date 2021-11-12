@@ -1,0 +1,36 @@
+
+var today = new Date();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+document.body.innerHTML = '<h1>Greetings</h1>';
+
+document.writeln("Today is " + date + ", and the time is " + time);
+document.writeln("The Salty Jellyfish welcomes you, " + name + " We're glad you are doing " + doing.toLowerCase());
+
+document.getElementById('button').addEventListener('click', function() {
+
+alert('i got clicked');
+
+})
+
+
+
+function Addition() {
+   
+}
+function Subtraction() {
+
+
+}
+function NameBackwards() {
+
+
+}
+function Addition() {
+
+
+}
+function Addition() {
+
+
+}

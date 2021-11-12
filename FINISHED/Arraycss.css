@@ -1,0 +1,13 @@
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+h2 {
+    color: #080a62;
+    font-size: 1.5em;
+}
+body {
+    background-color: rgb(128, 193, 236);
+  }

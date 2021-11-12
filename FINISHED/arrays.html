@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Arraycss.css">
+    <title>Supraj Janampalli, ITIS 3135, Arrays</title>
+</head>
+
+<body>
+    <div>
+        <h2>Add Salary</h2>
+        <label>Name: <input type="text" id="name" required autofocus><span id="namespace"></span></label> <br>
+        <label>Salary: <input type="number" id="salary" required><span id="salaryspace"></span></label><br>
+        <button onclick="addSalary()">Add Salary</button>
+    </div>
+
+    <div>
+        <h2>Diplay Salary</h2>
+        <button onclick="displaySalary()">Display Salary</button>
+        <table id="result_table"></table>
+    </div>
+
+    <div>
+        <h2>Display Result</h2>
+        <button onclick="displayResults()">Display Result</button>
+        <div id="results"></div>
+    </div>
+
+    <div>
+        <h2>Display Employees</h2>
+        <button onclick="displayEmployees()">Display Employees In Dropdown</button><br>
+        <select id="employees"></select>
+    </div>
+    <script src="ArraysJS.js"></script>
+</body>
+
+</html>

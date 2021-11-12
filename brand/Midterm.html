@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Weekly Calorie Calculator</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <script src="scripts/Midterm.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <h1 class="Center">Salty Jellyfish LLC</h1>
+        <figure class="Picture">
+            <a href="images/CreativeCommonJellyFish.png">
+                <img src="images/CreativeCommonJellyFish.png" height=400
+                    px width=400 px alt="Jellyfish Retrieved from CreativeCommons.org">
+            </a>
+
+
+            <p class="bodytext">
+                Here at Salty Jellyfish we try to bring you the best seafood possible! Whether that be from tuna to
+                octopus, if it lives in the ocean we got it! We take pride in delivering fresh seafood to your grocery store or restraunt.
+                We only serve the highest quality of seafood and never send anything we would personally eat ourselves. Please contact us for a free
+                trial of our seafood.
+
+
+            </p>
+
+
+
+            <ul>
+                <li>Reliable</li>
+                <li>Cost-Effective</li>
+                <li>Half of earnings are donated to charity!</li>
+                <li>Hardworking</li>
+                <li>Family Owned</li>
+                <li>Cruelty Free</li>
+                
+
+            </ul>
+
+            <p class="bodytext">
+               For our clients we want to provide the best possible service when it comes to seafood providers. Compared to us you will not 
+               find anyone that can come close to the products and services we provide. If ever you find yourself disliking our service we will
+               refund you 100% of your last order.
+               <br/>
+               <br/>
+               <br/>
+               Contact us:
+               <br/>
+               <br/>
+              Email: SaltyJelly@gmail.com 
+              \ Telephone: 704-429-2912
+
+
+            </p>
+
+
+
+        <h1>Weekly Calorie Calculator</h1>
+        <!--add the form-->
+        <form id="your_details" name="your_details" action="#">
+            <h2>Enter your details</h2>
+            <label for="Name">Name:</label>
+            <input id="Name" type="text" aria-required="true" placeholder="Enter your name">
+            <br>
+            <label for="Email">Email:</label>
+            <input id="Email" type="Email" aria-required="true" placeholder="Enter your email">
+            <br>
+            <button type="submit">Submit</button>
+
+
+        </form>
+
+        <!--add the radio buttons-->
+        <p>Choose a Day:</p>
+
+        <label for="monday">Monday</label>
+        <input type="radio" id="monday" name="day" value="monday">
+
+        <label for="tuesday">Tuesday</label>
+        <input type="radio" id="tuesday" name="day" value="tuesday">
+
+        <label for="wednesday">Wednesday</label>
+        <input type="radio" id="wednesday" name="day" value="wednesday">
+
+        <label for="thursday">Thursday</label>
+        <input type="radio" id="thursday" name="day" value="thursday">
+
+        <label for="friday">Friday</label>
+        <input type="radio" id="friday" name="day" value="friday">
+
+        <label for="saturday">Saturday</label>
+        <input type="radio" id="saturday" name="day" value="saturday">
+
+        <label for="sunday">Sunday</label>
+        <input type="radio" id="sunday" name="day" value="sunday">
+
+        <!--input for calorie-->
+        <p>Enter the Calorie:</p>
+        <form>
+            <input type="number" id='cals'><br><br>
+        </form>
+
+        <!--button for updating calorie-->
+        <button type="button" onclick="UpdateCalorie()">Update</button>
+        <!--button for add calorie-->
+        <button type="button" onclick="showAverageCalories()">Average Calorie</button>
+
+        <!--text box for showing Average calorie-->
+        <p> Average Calories Consumed is
+        <p>
+        <form>
+            <input type="text" class="green" id="averageCals"><br><br>
+        </form>
+
+        <!--header for showing maximum calorie amount and cheat day-->
+        <strong onmouseover="showMax()" id="show_max">Show Maximum Calorie and Cheat Day:</strong>
+        <!--div for showing maximum calorie amount and cheat day-->
+        <p id="maxtext"></p>
+
+
+    </main>
+    <footer>
+        <br />
+        <a href="https://validator.w3.org/">Validate HTML</a>
+        <br />
+        <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+    </footer>
+</body>
+
+</html>

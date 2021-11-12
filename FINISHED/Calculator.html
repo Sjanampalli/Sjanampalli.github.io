@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="CalculatorCSS.css">
+    <title>Supraj Janampalli, ITIS 3135, Calculator</title>
+</head>
+
+<body>
+    <h1 class="title">Supraj's Calculator</h1>
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" id="result" /></td>
+        </tr>
+        <tr>
+            
+            <td><input type="button" value="1" onclick="Press('1')" /> </td>
+            <td><input type="button" value="2" onclick="Press('2')" /> </td>
+            <td><input type="button" value="3" onclick="Press('3')" /> </td>
+            <td><input type="button" value="/" onclick="Press('/')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="Press('4')" /> </td>
+            <td><input type="button" value="5" onclick="Press('5')" /> </td>
+            <td><input type="button" value="6" onclick="Press('6')" /> </td>
+            <td><input type="button" value="-" onclick="Press('-')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="Press('7')" /> </td>
+            <td><input type="button" value="8" onclick="Press('8')" /> </td>
+            <td><input type="button" value="9" onclick="Press('9')" /> </td>
+            <td><input type="button" value="+" onclick="Press('+')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="Press('.')" /> </td>
+            <td><input type="button" value="0" onclick="Press('0')" /> </td>
+            <td><input type="button" value="=" onclick="Calculate()" /> </td>
+            <td><input type="button" value="*" onclick="Press('*')" /> </td>
+        </tr>
+    </table>
+    <script src="CalculatorScript.js"></script>
+</body>
+
+</html>

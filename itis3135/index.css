@@ -1,0 +1,99 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d4321c;
+    background-color: #FCB2A9;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+nav 
+{
+    text-align: center;
+}
+
+.main-nav 
+{
+    border-radius: 8px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #fe657d;
+    color: lightgray;
+}
+
+.main-nav-link
+{
+    color: white;
+}
+
+.main-nav-link:hover
+{
+    color: lightgray;
+}
+
+.table-body 
+{
+    width: 750px;
+    margin: 0 auto;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+thead
+{
+    background-color: #ffffff;
+}
+
+th, td 
+{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+tbody tr:nth-child(even) td
+{
+    background-color: white;
+}
+tbody tr:nth-child(odd) td {
+    background-color: #cccccc;
+}
+
+
+.center
+{
+    text-align: center;
+}
+
+
+header, footer, figure
+{
+    text-align: center;
+}
+
+h1, h2, h3
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 0px;
+    color: #ffffff;
+}
+
+a 
+{
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
